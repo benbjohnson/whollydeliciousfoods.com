@@ -1,0 +1,234 @@
+/* - copyright: Jo Phillips designed for Themeforest.net - 2011 
+This file is only available for download on Themeforest, if you have downloaded it from another site, you are using it illegally. 
+Please do the right thing and buy it. Many thanks - */
+
+
+/*--------------------------------------------------------------- */
+/*BODY*/
+/*--------------------------------------------------------------- */
+body {
+
+background-color:#fff;
+margin:30px auto 10px auto;
+color:#555;
+}
+
+/*--------------------------------------------------------------- */
+/* - PAGE WRAPPER, BACKGROUND + INNER PADDING - */
+/*--------------------------------------------------------------- */
+#wrapper{
+width:940px;
+margin:0px auto;
+}
+#header{
+display:none;}
+
+#inner{
+
+padding:0px 60px 0px 60px; 
+}
+
+#body_foot{
+height:48px;
+}
+
+/*--------------------------------------------------------------- */
+/* - STYLING - */
+/*--------------------------------------------------------------- */
+a { 
+color:#444; 
+text-decoration:none;
+outline:none;
+}
+a:hover { 
+color:#666; 
+}
+
+/* - left - */
+.left_column { 
+float:left;
+width:380px;
+}
+
+/* - right - */
+.right_column { 
+float:right;
+width:380px;
+}
+
+/* - body text - */
+p { 
+font: normal .75em/1.6em helvetica, Arial, sans-serif;
+letter-spacing: .01em;
+line-height:18px;
+}
+
+/* - section heading  -*/
+.title { 
+font:  normal 23px palatino, "Palatino Linotype", Baskerville, Garamond, Georgia, serif; 
+color: #111; 
+border-bottom:1px solid #999;
+margin:0px 0px 15px 0px;
+}
+
+/* - heading number -*/
+span.first{
+float: left;
+font:  normal 23px palatino, "Palatino Linotype", Baskerville, Garamond, Georgia, serif; 
+color: #333;
+margin-right:4px;
+}
+
+/*--------------------------------------------------------------- */
+/* - TOP STRIP -
+/*--------------------------------------------------------------- */
+.logo  {
+display:none;
+}
+
+.logo2  {
+margin-top:19px;
+}
+
+/*--------------------------------------------------------------- */
+/* - 01. TOP INFORMATION -
+/*--------------------------------------------------------------- */
+/* - your name -*/
+h1 { 
+font: normal 38px palatino,"Palatino Linotype", Baskerville, Garamond, Georgia, serif; 
+margin: -3px 0px 0px 0px ;  
+color: #111;
+}
+
+/* - your job title - */
+h2 { 
+font:  italic normal 16px palatino,"Palatino Linotype", Baskerville, Garamond, Georgia, serif; 
+margin:0px 0px 17px 0px;
+color: #222; 
+}
+
+/* - your information - */
+.info { 
+margin:0 0;
+float: left ;
+padding:0px;
+}
+
+.info li {
+font: normal 12px helvetica, Arial, sans-serif;
+color:#555;
+letter-spacing: .01em;
+line-height:18px;
+list-style-type:disc; 
+margin-left:14px; 
+}
+
+/* -- social icons -- */
+.socialicons {
+margin:16px 0px 0px 0px; 
+background-color:transparent; 
+}
+
+.icons a{
+outline:0;
+text-decoration:none;
+padding: 0px 4px 0px 0px;
+}
+
+
+/*--------------------------------------------------------------- */
+/* - 02. EXPERIENCE/JOBS - */
+/*--------------------------------------------------------------- */
+.job { 
+position:relative; 
+}
+
+/* - company name - */
+.job h1 { 
+font:  normal 17px palatino, "Palatino Linotype", Baskerville, Garamond, Georgia, serif; 
+margin: 0px 0px; 
+color: #333;
+}
+
+/* - job title - */
+.job h2 { 
+font: italic normal 15px palatino, "Palatino Linotype", Baskerville, Garamond, Georgia, serif; 
+margin: 0px 0px; 
+color: #444;
+}
+
+/* - date - */
+.date {
+font: normal 13px palatino, "Palatino Linotype", Baskerville, Garamond, Georgia, serif; 
+color: #777;
+position:absolute; 
+top: 0.3em;
+right: 0;
+}
+
+/* - jobs list - */
+.jobs li {
+font: normal 12px helvetica, Arial, sans-serif;
+letter-spacing: .01em;
+line-height:18px;
+list-style-type:disc; 
+margin-left:-27px; 
+}
+
+/* - dividers - */
+.jobrule {
+border-bottom:1px solid #ccc; 
+margin:0px 0px 15px 0px;
+}
+
+.jobrule2 {
+border-bottom:1px solid #ccc; 
+margin:10px 0px 15px 0px;
+padding-top:9px;
+}
+
+/*--------------------------------------------------------------- */
+/* - 03. SKILLS - */
+/*--------------------------------------------------------------- */
+/* - skills bold headings - */
+.skills h1 { 
+color: #333; font: normal 17px palatino, "Palatino Linotype", Baskerville, Garamond, Georgia, serif; 
+margin: 0px 0px -10px 0px; 
+}
+
+.star { 
+margin:5px 5px 2px 0px;
+}
+
+.sub {
+font: italic 15px palatino, "Palatino Linotype", Baskerville, Garamond, Georgia, serif; 
+color: #666;
+letter-spacing: .01em;
+}
+/*--------------------------------------------------------------- */
+/* - FOOTER - */
+/*--------------------------------------------------------------- */
+/* - footer background - */
+#top-foot{display:none;
+}
+
+#footer { 
+display:none;
+}
+
+#foot2{
+display:none;
+}
+
+
+/* - extras - */
+.clear{ height:30px;
+clear:both;
+}
+
+.clear2{ height:10px;
+clear:both;
+}
+
+
+

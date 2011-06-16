@@ -1,0 +1,421 @@
+/* - copyright: Jo Phillips designed for Themeforest.net - 2011 
+This file is only available for download on Themeforest, if you have downloaded it from another site, you are using it illegally. 
+Please do the right thing and buy it. Many thanks - */
+
+
+/*--------------------------------------------------------------- */
+/*BODY*/
+/*--------------------------------------------------------------- */
+body {
+	background-image: url(images/bg1.jpg);
+	background-color:#fff;
+	background-repeat:repeat;
+	margin:160px auto 10px auto;
+	color:#555;
+	background-attachment: fixed;
+}
+
+/*--------------------------------------------------------------- */
+/* - PAGE WRAPPER, BACKGROUND + INNER PADDING - */
+/*--------------------------------------------------------------- */
+#wrapper{
+	width:940px;
+	margin-top: -10px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#header{
+	height:48px;
+	background-image: url(images/header.png);
+	background-repeat:no-repeat;
+	margin:0px 0px;
+}
+
+#inner{
+	background-image: url(images/body.png);
+	padding:0px 60px 0px 60px;
+}
+
+#body_foot{
+	height:48px;
+	background-image: url(images/bottom_foot.png);
+	background-repeat:no-repeat;
+	background-color:transparent;
+}
+
+/*--------------------------------------------------------------- */
+/* - STYLING - */
+/*--------------------------------------------------------------- */
+a { 
+color:#444; 
+text-decoration:none;
+outline:none;
+}
+a:hover { 
+color:#666; 
+}
+
+/* - left - */
+.left_column { 
+float:left;
+width:380px;
+}
+
+/* - right - */
+.right_column { 
+float:right;
+width:380px;
+}
+.one_column {
+	float:none;
+	width:822px;
+	clear: both;
+	height: auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+	overflow: auto;
+	z-index: 100;
+}
+
+/* - body text - */
+p { 
+font: normal .75em/1.6em helvetica, Arial, sans-serif;
+letter-spacing: .01em;
+line-height:18px;
+}
+
+/* - section heading  -*/
+.title {
+	font:  normal 25px palatino, "Palatino Linotype", Baskerville, Garamond, Georgia, serif;
+	color: #B1C22A;
+	background: url(images/menuline.png) bottom repeat-x;
+	margin:0px 0px 20px 0px;
+}
+
+/* - heading number -*/
+span.first{
+float: left;
+font:  normal 23px palatino, "Palatino Linotype", Baskerville, Garamond, Georgia, serif; 
+color: #333;
+margin-right:4px;
+}
+
+/*--------------------------------------------------------------- */
+/* - TOP STRIP -
+/*--------------------------------------------------------------- */
+.logo  {
+	position:fixed;
+	top:0;
+	z-index:10;
+	height:160px;
+	border-bottom:7px solid #ededed;
+	width:100%;
+	background-image: url(images/light_grid.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+}
+
+.logo2  {
+margin-top:19px;
+}
+
+/*--------------------------------------------------------------- */
+/* - 01. TOP INFORMATION -
+/*--------------------------------------------------------------- */
+/* - your name -*/
+h1 {
+	margin: -3px 0px 0px 0px;
+	color: #111;
+	font-family: palatino, "Palatino Linotype", Baskerville, Garamond, Georgia, serif;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+}
+
+/* - your job title - */
+h2 {
+	font:  italic normal 20px palatino,"Palatino Linotype", Baskerville, Garamond, Georgia, serif;
+	letter-spacing: 1px;
+	margin:10px opx 17px 0px;
+	color: #222;
+}
+
+/* - your information - */
+.info { 
+margin:0 0;
+float: left ;
+padding:0px;
+}
+
+.info li {
+display:block;
+font: normal 12px helvetica, Arial, sans-serif;
+color:#555;
+line-height:18px;
+list-style:none;
+padding-left:21px; 
+background:url(images/bullet.jpg) 1px 0.5em no-repeat;
+}
+
+/* -- social icons -- */
+.socialicons {
+margin:16px 0px 0px 0px; 
+background-color:transparent; 
+}
+
+.icons a{
+outline:0;
+text-decoration:none;
+padding: 0px 4px 0px 0px;
+}
+
+
+/*--------------------------------------------------------------- */
+/* - 02. EXPERIENCE/JOBS - */
+/*--------------------------------------------------------------- */
+.job { 
+position:relative; 
+}
+
+/* - company name - */
+.job h1 { 
+font:  normal 17px palatino, "Palatino Linotype", Baskerville, Garamond, Georgia, serif; 
+margin: 0px 0px; 
+color: #333;
+}
+
+/* - job title - */
+.job h2 {
+	font: italic normal 20px palatino, "Palatino Linotype", Baskerville, Garamond, Georgia, serif;
+	margin: 0px 0px;
+	letter-spacing: 1px;
+	color: #444;
+}
+
+/* - date - */
+.date {
+font: normal 13px palatino, "Palatino Linotype", Baskerville, Garamond, Georgia, serif; 
+color: #777;
+position:absolute; 
+top: 0.3em;
+right: 0;
+}
+
+/* - jobs list - */
+.jobs li {
+font: normal 12px helvetica, Arial, sans-serif;
+letter-spacing: .01em;
+line-height:18px;
+list-style-type:disc; 
+margin-left:-27px; 
+}
+
+/* - dividers - */
+.jobrule {
+border-bottom:1px dotted #ccc; 
+margin:0px 0px 15px 0px;
+}
+
+.jobrule2 {
+border-bottom:1px dotted #ccc; 
+margin:10px 0px 15px 0px;
+padding-top:9px;
+}
+
+/*--------------------------------------------------------------- */
+/* - 03. SKILLS - */
+/*--------------------------------------------------------------- */
+/* - skills bold headings - */
+.skills h1 { 
+color: #333; font: normal 17px palatino, "Palatino Linotype", Baskerville, Garamond, Georgia, serif; 
+margin: 0px 0px -10px 0px; 
+}
+
+.star { 
+margin:5px 5px 2px 0px;
+}
+
+.sub {
+font: italic 15px palatino, "Palatino Linotype", Baskerville, Garamond, Georgia, serif; 
+color: #666;
+letter-spacing: .01em;
+}
+/*--------------------------------------------------------------- */
+/* - FOOTER - */
+/*--------------------------------------------------------------- */
+/* - footer background - */
+#top-foot{
+	height:27px;
+	background-image: url(images/header.png);
+	background-repeat:repeat-x;
+}
+
+#footer {
+	background-image: url(images/body.png);
+	height:200px;
+	padding:0px 60px;
+	font-size:14px;
+	color:#888;
+}
+
+#foot2{
+	height:48px;
+	background-image: url(images/bottom_foot.png);
+	background-repeat:no-repeat;
+}
+
+.title2 { 
+color: #222; 
+font:  normal 20px palatino, "Palatino Linotype", Baskerville, Garamond, Georgia, serif; 
+background: url(images/menuline.png) bottom repeat-x;
+margin:0px 0px 15px 0px;
+}
+
+/* - footer left - */
+.footerleft{ 
+float:left;
+width:380px;
+}
+
+/* - gallery style - */
+.photo-top {
+border:1px solid #ccc;
+margin:0px 6px 18px 0px;
+background-color:#ededed;	
+padding:4px;
+}
+.photo-top a{
+text-decoration:none;
+}
+
+/* - footer right - */
+.footerright{ 
+width:380px;
+float:right;
+}
+
+/* - twitter message - */
+.tweet, .query {
+margin-top:-3px;
+font-size:14px;
+width:380px;
+color:#999;
+}
+
+.tweet .tweet_list, .query .tweet_list {
+list-style-type: none;
+padding:0;margin: 0;
+font: italic normal 15px palatino, "Palatino Linotype", Baskerville, Garamond, Georgia, serif; 
+line-height:19px; 
+}
+
+.tweet .tweet_list li  {
+color: #555;padding-left:0px;
+margin-bottom:10px;
+}
+
+.tweet .tweet_list li a, .query .tweet_list li a {
+color: #666; 
+}
+    
+.tweet .tweet_list .tweet_avatar, .query .tweet_list .tweet_avatar {
+padding-right: .5em; 
+float: left; 
+}
+       
+.tweet_avatar img { 
+margin-top:3px;
+vertical-align: middle;
+border:1px solid #ccc;
+padding:2px; 
+background-color:#ededed; 
+}
+
+/* - divider - */
+.rule {
+margin: 0 0; 
+
+border-bottom:1px dotted #ccc; 
+}
+
+
+/*--------------------------------------------------------------- */
+/* - PRINT AND CONTACT BUTTONS - */
+/*--------------------------------------------------------------- */
+/* -- sharing -- */
+#sharing { 
+width:280px;
+float:left;
+padding:0px 0px 4px 0px;  
+}
+
+#sharing ul { 
+margin:0px 0px 0px -40px;
+list-style-type: none;
+}
+
+#sharing li { 
+float: left; 
+display: block; 
+height:56px;
+width:42px; 
+margin-right:20px;
+}
+
+#sharing li a {
+display:block; 
+height:56px; 
+width:46px; 
+text-indent: -9999px;
+background-image: url(images/icons.jpg); 
+}
+
+#sharing .print a {background-position: 0px 0; }
+#sharing .contact a {background-position: 122px 0; }
+#sharing .pdf a {background-position: 244px 0; }
+#sharing .top a {background-position: 368px 0; }
+#sharing .print a:hover {background-image: url(images/icons_hover.jpg);
+background-position:0px 0; }
+#sharing .contact a:hover { background-image: url(images/icons_hover.jpg);
+background-position:122px 0; }
+#sharing .pdf a:hover {background-image: url(images/icons_hover.jpg);
+background-position:244px 0; }
+#sharing .top a:hover {background-image: url(images/icons_hover.jpg);
+ background-position:368px 0; }
+
+/* -- back to top link -- */
+#back-top {
+position: relative;
+margin:0px 0px;
+}
+
+#back-top a {
+width: 46px;
+display: block;
+text-decoration: none;
+color: #bbb;
+}
+
+/* -- copyright text -- */
+#copyright {
+width:100px;
+font:  normal 12px palatino, "Palatino Linotype", Baskerville, Garamond, Georgia, serif; 
+color:#666; 
+float:right;
+margin-top:5px;
+text-align:right;
+line-height:14px;
+}
+
+/* - extras - */
+.clear{ height:30px;
+clear:both;
+}
+
+.clear2{ height:10px;
+clear:both;
+}
